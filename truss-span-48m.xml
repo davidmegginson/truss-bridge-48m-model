@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PropertyList>
+
+  <path>truss-span-48m.ac</path>
+
+  <effect>
+    <inherits-from>/Effects/model-combined-deferred</inherits-from>
+    <parameters>
+      <lightmap-enabled type="int">1</lightmap-enabled>
+      <lightmap-factor><use>/environment/lightmap-factor</use></lightmap-factor>
+      <transparent type="bool">true</transparent>
+      <texture n="3">
+        <image>truss-span-48m2.png</image>
+      </texture>
+    </parameters>
+    <object-name>Truss spans</object-name>
+  </effect>
+  
+</PropertyList>

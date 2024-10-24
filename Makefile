@@ -1,7 +1,9 @@
 FG_SCENERY=${HOME}/.local/share/scenery/local-scenery-mods
 
 FILES=truss-span-48m.ac \
-  truss-span-48m1.png
+  truss-span-48m.xml \
+  truss-span-48m1.png \
+  truss-span-48m2.png
 
 install: ${FILES}
 	cp ${FILES} ${FG_SCENERY}/Models/Miscellaneous
